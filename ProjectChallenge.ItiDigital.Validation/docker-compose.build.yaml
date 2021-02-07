@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  projectchallenge:
+    image: projectchallenge
+    container_name: projectchallenge
+    build: .
+    environment:
+      - Application__LogLevel=Information
+      - CloudWatchRegion=us-east-1
+    ports:
+      - "5050:80"

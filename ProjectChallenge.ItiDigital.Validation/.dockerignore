@@ -1,0 +1,26 @@
+# .dockerignore
+
+[Db]ebug/
+[Db]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+publish/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+Dockerfile
+docker-compose.*.yml
+docker-compose.yml
+rancher-compose.yml
+.dockerignore
+Jenkinsfile
+*.zip
+README.md
+*.user
+.vs/
+.vscode/
+*.sql
+*.csv

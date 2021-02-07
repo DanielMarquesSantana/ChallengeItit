@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{355753D1-628A-4D90-B327-16323ED261CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{470616B0-A49E-456B-BED3-C48245BD6AB5}"
+	ProjectSection(SolutionItems) = preProject
+		LinkChallenge.txt = LinkChallenge.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8F053BD5-7F12-47C5-9A52-77B0FE7F06A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4B575BB-3B27-47AA-8F76-9C030EB455FC}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		docker-compose.build.yaml = docker-compose.build.yaml
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectChallenge.ItiDigital.Validation", "src\ProjectChallenge.ItiDigital.Validation\ProjectChallenge.ItiDigital.Validation.csproj", "{E7EB72E8-4EAC-4F1A-956C-4CAC32284322}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectChallenge.ItiDigital.Validation.Tests", "tests\UnitTests\ProjectChallenge.ItiDigital.Validation.Tests\ProjectChallenge.ItiDigital.Validation.Tests.csproj", "{5C214825-77CE-4264-BC4A-6E762CEFDB46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{A77850D3-23E3-4A12-9263-F8F71240C910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectChallenge.ItiDigital.Validation.IntegrTests", "tests\IntegrTests\ProjectChallenge.ItiDigital.Validation.IntegrTests\ProjectChallenge.ItiDigital.Validation.IntegrTests.csproj", "{769F12EA-2A5F-415F-8E63-0E4F4710961D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{68D7218A-1325-4C88-AE77-1544A42E8D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7EB72E8-4EAC-4F1A-956C-4CAC32284322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EB72E8-4EAC-4F1A-956C-4CAC32284322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EB72E8-4EAC-4F1A-956C-4CAC32284322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EB72E8-4EAC-4F1A-956C-4CAC32284322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C214825-77CE-4264-BC4A-6E762CEFDB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C214825-77CE-4264-BC4A-6E762CEFDB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C214825-77CE-4264-BC4A-6E762CEFDB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C214825-77CE-4264-BC4A-6E762CEFDB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769F12EA-2A5F-415F-8E63-0E4F4710961D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769F12EA-2A5F-415F-8E63-0E4F4710961D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769F12EA-2A5F-415F-8E63-0E4F4710961D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769F12EA-2A5F-415F-8E63-0E4F4710961D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7EB72E8-4EAC-4F1A-956C-4CAC32284322} = {355753D1-628A-4D90-B327-16323ED261CD}
+		{5C214825-77CE-4264-BC4A-6E762CEFDB46} = {68D7218A-1325-4C88-AE77-1544A42E8D89}
+		{A77850D3-23E3-4A12-9263-F8F71240C910} = {8F053BD5-7F12-47C5-9A52-77B0FE7F06A6}
+		{769F12EA-2A5F-415F-8E63-0E4F4710961D} = {A77850D3-23E3-4A12-9263-F8F71240C910}
+		{68D7218A-1325-4C88-AE77-1544A42E8D89} = {8F053BD5-7F12-47C5-9A52-77B0FE7F06A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C13B6FB-01D6-47BF-80B4-9BAE960385AE}
+	EndGlobalSection
+EndGlobal
