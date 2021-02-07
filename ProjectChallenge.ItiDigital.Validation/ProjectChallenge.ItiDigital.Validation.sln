@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{355753D1-628
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{470616B0-A49E-456B-BED3-C48245BD6AB5}"
 	ProjectSection(SolutionItems) = preProject
-		LinkChallenge.txt = LinkChallenge.txt
+		docs\LinkChallenge.txt = docs\LinkChallenge.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8F053BD5-7F12-47C5-9A52-77B0FE7F06A6}"
